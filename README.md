@@ -6,7 +6,15 @@ Run `npm install`
 Run `gulp scripts compress` to build the files.
 
 ##Use
-Open `index.html` and pass in url paramters like this example: `index.html?url=netflix.com&ios=nextflix.com/ios&android=nextflix.com/android&code=foo`
+Open `index.html` and pass in url paramters like this example: `index.html?url=netflix.com&ios=nextflix.com/ios&android=nextflix.com/android&code=foo`. The default `url` parameter is required.
+
+##Device Parameters
+You have the option to pass in separate URLs for each device. If don't pass a URL for each device it will redirect to the default `url` value.
+- iOS
+- Android
+- Windows
+- Mac
+- Linux
 
 ## Contributing
 1. Fork it
